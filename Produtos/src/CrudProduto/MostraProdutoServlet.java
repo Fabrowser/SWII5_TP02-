@@ -1,3 +1,12 @@
+
+/*
+  Matéria:SWII5 – ADS 571 - TP02
+  FABRICIO CARLOS GUIMARAES CB3014886
+  BENILDES FERNANDES DE MENEZES CB3004392
+  
+ */
+
+
 package CrudProduto;
 
 import java.io.IOException;
@@ -24,7 +33,7 @@ public class MostraProdutoServlet extends HttpServlet
 				
 				Produto produto = banco.buscaProdutoPelaId(id);
 						
-				System.out.println(produto.getNome()+"bla");
+				System.out.println(produto.getNome());
 				
 				request.setAttribute("produto", produto);	
 				
